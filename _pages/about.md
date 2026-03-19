@@ -1,12 +1,10 @@
 ---
 permalink: /
-title: "About Me"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
-
 I'm a Research Fellow at the [Centre for Quantum Technologies (CQT), National University of Singapore](https://www.cqt.sg/), collaborating with Prof. [Patrick Rebentrost](https://www.cqt.sg/people/patrick-rebentrost/).
 
 
