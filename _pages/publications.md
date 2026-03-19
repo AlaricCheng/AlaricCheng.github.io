@@ -9,7 +9,7 @@ author_profile: true
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %} -->
 
-## Journal & Conference Papers
+## Publications
 
 1. Jeong Yu Han, **Bin Cheng**, Dinh-Long Vu, Patrick Rebentrost.
 *Quantum Advantage for Multi-option Portfolio Pricing and Valuation Adjustments*. [Quantitative Finance (2026)](https://www.tandfonline.com/doi/full/10.1080/14697688.2026.2614573)
