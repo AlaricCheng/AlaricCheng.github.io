@@ -203,15 +203,17 @@
   }
 
   .visible-links {
-    display: table;
+    display: flex;
+    align-items: center;
+    width: 100%;
 
     li {
-      display: table-cell;
-      vertical-align: middle;
+      display: block;
 
       &:first-child {
         font-weight: bold;
         text-wrap: wrap;
+        margin-right: auto; // Pushes other tabs to the right
 
         a {
           margin-left: 0;

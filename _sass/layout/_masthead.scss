@@ -63,7 +63,13 @@
   &--lg {
     padding-right: 2em;
     font-weight: 700;
+    font-size: 1.5em; /* Enlarge font for Bin Cheng */
   }
+}
+
+/* Change other tabs font to gray */
+.masthead__menu-item:not(.masthead__menu-item--lg):not(#theme-toggle) a {
+  color: gray;
 }
 
 .masthead__menu-item.selected a {
