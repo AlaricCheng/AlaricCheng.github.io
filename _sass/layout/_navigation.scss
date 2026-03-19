@@ -176,6 +176,17 @@
   position: relative;
   min-width: 250px;
   background: var(--global-bg-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .site-title {
+    font-weight: 700;
+    font-size: 1.5em; /* Enlarge font for Bin Cheng */
+    margin: 0;
+    padding: 0.5rem 0;
+    white-space: nowrap;
+  }
 
   a {
     display: block;
@@ -203,22 +214,11 @@
   }
 
   .visible-links {
-    display: flex;
-    align-items: center;
-    width: 100%;
+    display: table;
 
     li {
-      display: block;
-
-      &:first-child {
-        font-weight: bold;
-        text-wrap: wrap;
-        margin-right: auto; // Pushes other tabs to the right
-
-        a {
-          margin-left: 0;
-        }
-      }
+      display: table-cell;
+      vertical-align: middle;
 
       &:last-child {
         a {

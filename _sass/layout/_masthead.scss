@@ -59,17 +59,17 @@
   display: block;
   list-style-type: none;
   white-space: nowrap;
+}
 
-  &--lg {
-    padding-right: 2em;
-    font-weight: 700;
-    font-size: 1.5em; /* Enlarge font for Bin Cheng */
-    margin-right: auto; /* Push the rest of the items to the right */
-  }
+.site-title {
+  font-weight: 700;
+  font-size: 1.5em; /* Enlarge font for Bin Cheng */
+  text-decoration: none;
+  color: var(--global-text-color);
 }
 
 /* Change other tabs font to gray */
-.masthead__menu-item:not(.masthead__menu-item--lg):not(#theme-toggle) a {
+.masthead__menu-item:not(#theme-toggle) a {
   color: gray;
 }
 
