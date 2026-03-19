@@ -1,0 +1,223 @@
+\documentclass[margin,line,a4paper]{resume}
+ 
+\usepackage[latin1]{inputenc}
+\usepackage[english,danish]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx,wrapfig}
+\usepackage{url}
+\usepackage[colorlinks=false, a4paper=true, pdfstartview=FitV,
+linkcolor=blue, citecolor=blue, urlcolor=blue]{hyperref}
+\pdfcompresslevel=9
+
+\usepackage{tabularx}
+\usepackage{multirow}
+
+\usepackage{color,xcolor}
+\newcommand{\cyan}[1]{\textcolor{cyan}{#1}}
+\newcommand{\lightblue}[1]{\textcolor{blue!60!cyan}{#1}}
+\newcommand{\magenta}[1]{\textcolor{magenta}{#1}}
+\newcommand{\lightred}[1]{\textcolor{red!80!yellow}{#1}}
+
+ 
+\begin{document}
+
+
+% {\bf \huge Bin Cheng}  \vspace{2mm}  \\
+% \textit{Email}: chengb@mail.sustech.edu.cn   
+\begin{tabularx}{1.27\linewidth} { 
+   >{\raggedright\arraybackslash}X
+   >{\raggedleft\arraybackslash}X  }
+ \multirow{3}{*}{ {\bf \huge Bin Cheng} } & %Mobile: (+65) 91572001 \\ &
+      Email: bincheng@nus.edu.sg \\
+   & \href{https://scholar.google.com/citations?user=WcIQUTsAAAAJ}{Google Scholar} \\
+   &   GitHub: \href{https://github.com/AlaricCheng}{AlaricCheng} 
+\end{tabularx}
+%
+\begin{resume}
+    % \vspace{0.5cm}
+
+\section{\mysidestyle Research Interest}\vspace{1mm}
+
+My research interest lies in \textbf{quantum information science}, with a particular focus on
+\begin{itemize}
+    \item Quantum algorithms in the NISQ/early fault-tolerant regime
+    \item Quantum advantage
+    \item Quantum computation and combinatorial structures
+    \item Classical simulation of quantum systems
+    \item Quantum error correction
+	\item Quantum complexity theory
+    % \item Quantum cryptography
+	
+	%\item Quantum algorithms and circuit synthesis
+	%\item Counting complexity
+	%\item Security and cryptography from quantum information perspective
+\end{itemize}
+
+
+\section{\mysidestyle Employment}\vspace{1mm}
+
+\begin{itemize}
+    \item \textit{Postdoctoral Research Fellow} (2023--now) \\
+    Centre for Quantum Technologies, National University of Singapore  \\
+    Hosted by Patrick Rebentrost
+\end{itemize}
+
+
+\section{\mysidestyle Education}\vspace{1mm}
+
+\begin{itemize}
+    \item \textit{Ph.D. in Computer Science} (2019--2024) \\
+    University of Technology Sydney (UTS)  \\
+    Advisors: Zhengfeng Ji, Michael Bremner and Man-Hong Yung (external) \\
+    Ph.D. Thesis: \textit{\href{https://www.proquest.com/openview/e93d79149c773ca1b42e21ee73e8cc45/1?pq-origsite=gscholar&cbl=2026366&diss=y}{Classical Verification and Enhancement of Near-Term Quantum Devices}}
+
+    \item \textit{B.Sci. in Physics} (2014--2018) \\
+    Southern University of Science and Technology (SUSTech) \\
+    Advisor: Man-Hong Yung
+\end{itemize}
+
+
+
+
+
+\iffalse
+\section{\mysidestyle Research Directions}\vspace{1mm}
+
+\begin{description}
+    \item[Verifiable quantum advantage] Verifiable quantum advantage (or test of quantumness) has attracted more and more attentions in recent years. Verification protocols based on the IQP (instantaneous quantum polynomial-time) model are of particular interest, since they are more NISQ-friendly. The original Shepherd-Bremner construction was found a loophole recently. I worked on generalizing the constructions and exploring the classical security. I also study the connection between verification and coding theory.
+
+    \item[Quantum error mitigation] Large-scale quantum error correction is challenging for the NISQ devices. Thus, we need to find other means to denoise the quantum computation. Quantum error mitigation (QEM) is a promising technique, which uses classical postprocessing to map noisy expectation values to ideal ones. I study how to reduce the resource and improve the performance of QEM.
+
+    \item[Variational quantum algorithms] Variational quantum algorithms are a promising class of quantum algorithms for demonstrating practical quantum advantage. I study how to understand and avoid barren plateau, the efficiency of the classical optimization part and the design of the suitable ansatz.
+
+    \item[Quantum computational supremacy] Quantum computational supremacy is an important milestone in the NISQ era. I study various related topics, such as cross-entropy benchmarking, classical simulation of quantum circuits, and the complexity-theoretic foundations.
+    
+    % \item[Binary decision diagram and quantum computation] Binary decision diagrams have proven to be a powerful data structure for verification of classical circuits. 
+    % Together with Prof Zhengfeng Ji and other collaborators, I am working to understand whether there are quantum analogs of such data structures that can go beyond the most popular tensor-network paradigm of simulation and verification of quantum circuits.
+\end{description}
+\fi
+
+
+\section{\mysidestyle Publications}\vspace{1mm}
+
+\begin{enumerate}
+    \item Jeong Yu Han, \textbf{Bin Cheng}, Dinh-Long Vu, Patrick Rebentrost. (\magenta{corresponding author}) \\
+    \emph{Quantum Advantage for Multi-option Portfolio Pricing and Valuation Adjustments}. \href{https://www.tandfonline.com/doi/full/10.1080/14697688.2026.2614573}{Quantitative Finance (2026)}
+    
+    \item Zhenyu Chen$^*$, \textbf{Bin Cheng}$^*$, Minbo Gao, Xiaodie Lin, Ruiqi Zhang, Zhaohui Wei, and Zhengfeng Ji (\lightblue{*: equal contribution}) \\
+    \emph{Scalable Quantum Error Mitigation with Neighbor-Informed Learning}. \href{https://arxiv.org/abs/2512.12578}{arXiv:2512.12578}
+    
+    \item \textbf{Bin Cheng}$^*$, Ziyuan Wang$^*$, Ruixuan Deng, Jianxin Chen, and Zhengfeng Ji (\lightblue{*: equal contribution}) \\
+    \emph{Breaking the Treewidth Barrier in Quantum Circuit Simulation with Decision Diagrams}. QIP 2026, \href{https://arxiv.org/abs/2510.06775}{arXiv:2510.06775}
+    
+    \item Dinh-Long Vu, \textbf{Bin Cheng}, Patrick Rebentrost (\magenta{corresponding author}) \\
+    \emph{Low Depth Amplitude Estimation without Really Trying}. \href{https://dl.acm.org/doi/10.1145/3748666}{ACM Transactions on Quantum Computing (2025)}
+
+    % \item Fei Meng, \textbf{Bin Cheng}, Jianan Li and Man-Hong Yung. Weak Permanent Anti-Concentration for Gaussian Random Matrices in Boson Sampling. \emph{To appear}
+
+    \item Ziyuan Wang$^*$, \textbf{Bin Cheng}$^*$, Longxiang Yuan, Zhengfeng Ji (\lightblue{*: equal contribution}) \\
+    \emph{FeynmanDD: Quantum Circuit Analysis with Classical Decision Diagrams}. In \href{https://link.springer.com/chapter/10.1007/978-3-031-98685-7_2}{Computer Aided Verification (2025)} 
+
+    \item Michael J. Bremner, \textbf{Bin Cheng}, Zhengfeng Ji (\magenta{corresponding author}, \lightred{alphabetical order}) \\
+    \emph{Instantaneous Quantum Polynomial-time Sampling and Verifiable Quantum Advantage: Stabilizer Constructions and Classical Security}. \href{https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.6.020315}{PRX Quantum (2025)}
+    
+    \item \textbf{Bin Cheng}$^*$, Fei Meng$^*$, Zhi-Jiong Zhang, Man-Hong Yung (\lightblue{*: equal contribution}) \\
+    \emph{Generalized Cross-Entropy Benchmarking for Random Circuits with Ergodicity}. \href{https://www.sciencedirect.com/science/article/pii/S2709472325000012}{Chip (2025)}
+    
+    \item Patrick Rebentrost, Alessandro Luongo, \textbf{Bin Cheng}, Samuel Bosch, Seth Lloyd (\magenta{corresponding author}) \\
+    \emph{Quantum Computational Finance for Martingale Asset Pricing in Incomplete Markets}. \href{https://www.nature.com/articles/s41598-024-68838-1}{Scientific Reports (2024)}
+    
+    \item Xiao-Wei Li, Xiao-Ming Zhang, \textbf{Bin Cheng}, Man-Hong Yung \\
+    \emph{Reachability Deficit of Variational Grover Search}. \href{https://journals.aps.org/pra/abstract/10.1103/PhysRevA.109.012414}{Physical Review A (2024)}
+
+    \item \textbf{Bin Cheng}, Xiu-Hao Deng, Xiu Gu, \emph{et al.} \\
+    \emph{Noisy Intermediate-scale Quantum Computers}. \href{https://doi.org/10.1007/s11467-022-1249-z}{Frontiers of Physics (2023)}
+
+    \item Chong Ying$^*$, \textbf{Bin Cheng}$^*$, Youwei Zhao$^*$, He-Liang Huang, Yu-Ning Zhang, Ming Gong, Yulin Wu, Shiyu Wang, Futian Liang, Jin Lin, Yu Xu, Hui Deng, Hao Rong, Cheng-Zhi Peng, Man-Hong Yung, Xiaobo Zhu, Jian-Wei Pan (\lightblue{*: equal contribution}) \\
+    \emph{Experimental Simulation of Larger Quantum Circuits with Fewer Superconducting Qubits}. \href{https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.130.110601}{Physical Review Letters (2023)}
+    
+    \item Fan Wang$^*$, \textbf{Bin Cheng}$^*$, Zi-Wei Cui, Man-Hong Yung (\lightblue{*: equal contribution}) \\
+    \emph{Quantum Computing by Quantum Walk on Quantum Slide}. \href{https://arxiv.org/abs/2211.08659}{arXiv:2211.08659}
+	
+	\item Kai Sun, Zi-Jian Zhang, Fei Meng, \textbf{Bin Cheng}, Zhu Cao, Jin-Shi Xu, Man-Hong Yung, Chuan-Feng Li, Guang-Can Guo \\
+    \emph{Experimental Verification of Group Non-membership in Optical Circuits}. \href{https://opg.optica.org/prj/fulltext.cfm?uri=prj-9-9-1745&id=457378}{Photonics Research (2021)}
+	
+	\item Xi Chen$^*$, \textbf{Bin Cheng}$^*$, Zhaokai Li, Xinfang Nie, Nengkun Yu, Man-Hong Yung, Xinhua Peng (\lightblue{*: equal contribution}) \\
+    \emph{Experimental Cryptographic Verification for Near-Term Quantum Cloud Computing}. \href{https://doi.org/10.1016/j.scib.2020.08.013}{Science Bulletin (2021)}  
+
+	\item Bujiao Wu$^*$, \textbf{Bin Cheng}$^*$, Fei Jia, Jialin Zhang, Man-Hong Yung, Xiaoming Sun (\lightblue{*: equal contribution}) \\
+    \emph{Speedup in Classical Simulation of Gaussian Boson Sampling}. \href{https://doi.org/10.1016/j.scib.2020.02.012}{Science Bulletin (2020)}
+
+	\item Man-Hong Yung, \textbf{Bin Cheng} (\magenta{corresponding author}) \\
+    \emph{Anti-Forging Quantum Data: Cryptographic Verification of Quantum Cloud Computing}.  \href{https://arxiv.org/abs/2005.01510}{arXiv:2005.01510}
+
+	\item \textbf{Bin Cheng}, Man-Hong Yung. Ubiquitous Complexity of Entanglement Spectra.  \href{https://arxiv.org/abs/1906.00324}{arXiv:1906.00324}
+      
+\end{enumerate}
+
+
+
+
+% \section{\mysidestyle Presentations}\vspace{1mm}
+
+% \begin{itemize}
+%     \item ``Ubiquitous Complexity of Entanglement Spectra'' (poster), Asian Quantum Information Science Conference 2019 at Seoul, Korea
+%     \item ``Experimental Cryptographic Verification for Near-Term 
+%     Quantum Cloud Computing'' (poster), Asian Quantum Information Science Conference 2019 at Seoul, Korea
+% \end{itemize}
+
+
+
+\section{\mysidestyle Professional Services}\vspace{1mm}
+
+\textbf{Reviewer for conferences:} QIP (2026, 25, 24, 22, 20), TQC (2025, 24, 23), AQIS 2025, QCE (2023, 21, 20), Asiacrypt 2020
+
+\textbf{Reviewer for journals:} Int. J. Quantum Inf.
+
+\section{\mysidestyle Honors and Awards}\vspace{1mm}
+
+\begin{itemize}
+    \item PhD Scholarship from Sydney Quantum Academy, 2020-2023
+    \item SUSTech Scholarship for Outstanding Undergraduate, 2016-2017
+    \item University Start-up Scholarship by Shenzhen Municipal Government, 2014-2018
+    \item SUSTech Scholarship for Outstanding Freshman, 2014
+\end{itemize}
+
+\vspace{0.8em}
+
+\section{\mysidestyle Teaching Experience}\vspace{1mm}
+
+\begin{itemize}
+    \item TA, Mathematical Methods for Physicists
+    \item TA, Quantum Mechanics I
+\end{itemize}
+
+
+
+
+% \section{\mysidestyle Computer Skills}\vspace{1mm}
+
+% \begin{itemize}
+%     \item Python
+%     \item Mathematica
+%     \item \LaTeX
+%     \item Linux
+% \end{itemize}
+
+
+
+    
+% \section{\mysidestyle References}\vspace{1mm}
+
+% \begin{itemize}
+%     \item \textbf{Zhengfeng Ji}, Department of Computer Science and Technology, Tsinghua University, \url{jizhengfeng@tsinghua.edu.cn}
+%     \item \textbf{Michael J. Bremner}, Centre for Quantum Software and Information, University of Technology Sydney, \url{Michael.Bremner@uts.edu.au}
+%     % \item \textbf{Man-Hong Yung}, Department of Physics, Southern University of Science and Technology, \url{yung@sustech.edu.cn}
+%     % \item \textbf{Xun Gao}, Department of Physics, Harvard University, \url{ xungao@g.harvard.edu}
+%     \item \textbf{Patrick Rebentrost}, Centre for Quantum Technologies, National University of Singapore, \url{cqtfpr@nus.edu.sg}
+% \end{itemize}
+
+    
+    
+\end{resume}
+\end{document}
