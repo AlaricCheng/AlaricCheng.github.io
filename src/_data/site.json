@@ -1,0 +1,25 @@
+{
+  "title": "Bin Cheng's Homepage",
+  "name": "Bin Cheng",
+  "description": "Bin Cheng's academic portfolio",
+  "url": "https://alariccheng.github.io",
+  "language": "en-US",
+  "avatar": "/images/profile.png",
+  "bio": "Research Fellow @ CQT, NUS.",
+  "location": "Singapore",
+  "employer": "National University of Singapore",
+  "email": "bincheng@nus.edu.sg",
+  "cv": "/files/CV.pdf",
+  "profiles": [
+    { "label": "Google Scholar", "url": "https://scholar.google.com/citations?user=WcIQUTsAAAAJ&hl=en", "icon": "ai ai-google-scholar" },
+    { "label": "ORCID", "url": "https://orcid.org/0000-0003-1643-7517", "icon": "ai ai-orcid" },
+    { "label": "GitHub", "url": "https://github.com/AlaricCheng", "icon": "fa-brands fa-github" },
+    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/bin-cheng-a4008b32a", "icon": "fa-brands fa-linkedin" }
+  ],
+  "navigation": [
+    { "label": "News", "url": "/#news" },
+    { "label": "Publications", "url": "/#publications" },
+    { "label": "Talks", "url": "/#talks" },
+    { "label": "CV", "url": "/files/CV.pdf" }
+  ]
+}

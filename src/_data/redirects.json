@@ -1,0 +1,7 @@
+[
+  { "path": "/about/index.html", "target": "/#top" },
+  { "path": "/about.html", "target": "/#top" },
+  { "path": "/publications/index.html", "target": "/#publications" },
+  { "path": "/talks/index.html", "target": "/#talks" },
+  { "path": "/talks-auto/index.html", "target": "/#talks" }
+]

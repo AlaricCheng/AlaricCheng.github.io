@@ -1,0 +1,24 @@
+/*
+ * Font Awesome Free 6.5.2 by @fontawesome — https://fontawesome.com
+ * Icons: CC BY 4.0; Fonts: SIL OFL 1.1; Code: MIT. Copyright 2024 Fonticons, Inc.
+ * Academicons 1.9.4 by James Walsh and Katja Bercic — Fonts: SIL OFL 1.1; CSS: MIT.
+ * Only the icons used by this website are included below.
+ */
+@font-face { font-family: "Font Awesome Solid"; font-style: normal; font-weight: 900; font-display: block; src: url("../webfonts/fa-solid-900.woff2") format("woff2"); }
+@font-face { font-family: "Font Awesome Brands"; font-style: normal; font-weight: 400; font-display: block; src: url("../webfonts/fa-brands-400.woff2") format("woff2"); }
+@font-face { font-family: "Academicons"; font-style: normal; font-weight: 400; font-display: block; src: url("../fonts/academicons.woff") format("woff"); }
+.fa-solid, .fa-brands, .ai { display: inline-block; font-style: normal; font-variant: normal; text-rendering: auto; line-height: 1; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+.fa-solid { font-family: "Font Awesome Solid"; font-weight: 900; }
+.fa-brands { font-family: "Font Awesome Brands"; font-weight: 400; }
+.ai { font-family: "Academicons"; font-weight: 400; }
+.fa-location-dot::before { content: "\f3c5"; }
+.fa-building-columns::before { content: "\f19c"; }
+.fa-envelope::before { content: "\f0e0"; }
+.fa-github::before { content: "\f09b"; }
+.fa-linkedin::before { content: "\f08c"; }
+.fa-sun::before { content: "\f185"; }
+.fa-moon::before { content: "\f186"; }
+.fa-bars::before { content: "\f0c9"; }
+.fa-square-rss::before { content: "\f143"; }
+.ai-google-scholar::before { content: "\e9d4"; }
+.ai-orcid::before { content: "\e9d9"; }

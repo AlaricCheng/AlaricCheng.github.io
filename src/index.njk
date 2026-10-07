@@ -1,0 +1,97 @@
+---
+permalink: /index.html
+---
+<!doctype html>
+<html lang="{{ site.language }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ site.description }}">
+    <meta name="theme-color" content="#f5f8f3">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ site.title }}">
+    <meta property="og:description" content="{{ site.description }}">
+    <meta property="og:url" content="{{ site.url }}/">
+    <meta property="og:image" content="{{ site.url }}{{ site.avatar }}">
+    <title>{{ site.title }}</title>
+    <link rel="canonical" href="{{ site.url }}/">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png?v=royal-park-top-left-6bda917f">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-180x180.png?v=royal-park-top-left-6bda917f">
+    <link rel="manifest" href="/images/manifest.json?v=royal-park-top-left-6bda917f">
+    <link rel="alternate" type="application/atom+xml" href="/feed.xml" title="{{ site.title }} Feed">
+    <script src="/assets/js/main.js"></script>
+    <link rel="stylesheet" href="/assets/css/icons.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+  </head>
+  <body id="top">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="masthead">
+      <nav class="masthead__inner-wrap" aria-label="Main navigation">
+        <a class="site-title" href="/#top">{{ site.name }}</a>
+        <div class="navigation-controls">
+          <ul class="navigation-links" id="navigation-links">
+            {% for link in site.navigation %}
+            <li><a href="{{ link.url }}">{{ link.label }}</a></li>
+            {% endfor %}
+          </ul>
+          <button class="theme-toggle" type="button" aria-label="Toggle color theme" aria-pressed="false" hidden>
+            <i class="fa-solid fa-sun" aria-hidden="true"></i>
+          </button>
+          <button class="menu-toggle" type="button" aria-label="Open navigation" aria-controls="navigation-links" aria-expanded="false" hidden>
+            <i class="fa-solid fa-bars" aria-hidden="true"></i>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main class="site-shell" id="main">
+      <aside class="author-profile" aria-label="About {{ site.name }}">
+        <img class="author-avatar" src="{{ site.avatar }}" alt="{{ site.name }}" width="175" height="188" fetchpriority="high">
+        <div class="author-content">
+          <h1 class="author-name">{{ site.name }}</h1>
+          <p class="author-bio">{{ site.bio }}</p>
+        </div>
+        <button class="follow-toggle" type="button" aria-controls="author-links" aria-expanded="false" hidden>Follow</button>
+        <ul class="author-links" id="author-links">
+          <li class="author-location"><i class="fa-solid fa-location-dot" aria-hidden="true"></i>{{ site.location }}</li>
+          <li class="author-location"><i class="fa-solid fa-building-columns" aria-hidden="true"></i>{{ site.employer }}</li>
+          <li><a href="mailto:{{ site.email }}"><i class="fa-solid fa-envelope" aria-hidden="true"></i>Email</a></li>
+          {% for profile in site.profiles %}
+          <li><a href="{{ profile.url }}"><i class="{{ profile.icon }}" aria-hidden="true"></i>{{ profile.label }}</a></li>
+          {% endfor %}
+        </ul>
+      </aside>
+
+      <div class="page-content">
+        <section id="about" aria-label="Biography">
+          {% renderFile "src/content/about.md" %}
+        </section>
+        <section class="content-section" id="news" aria-labelledby="news-heading">
+          <h2 id="news-heading">News</h2>
+          {% renderFile "src/content/news.md" %}
+        </section>
+        <section class="content-section" id="publications" aria-labelledby="publications-heading">
+          <h2 id="publications-heading">Publications</h2>
+          {% renderFile "src/content/publications.md" %}
+        </section>
+        <section class="content-section" id="talks" aria-labelledby="talks-heading">
+          <h2 id="talks-heading">Talks and presentations</h2>
+          {% renderFile "src/content/talks.md" %}
+        </section>
+      </div>
+    </main>
+
+    <footer class="page-footer">
+      <div class="footer-inner">
+        <p class="footer-follow">Follow:
+          <a href="https://github.com/AlaricCheng"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a>
+          <a href="/feed.xml"><i class="fa-solid fa-square-rss" aria-hidden="true"></i> Feed</a>
+        </p>
+        <p class="footer-copyright">&copy; {{ buildDate | year }} {{ site.name }}, powered by <a href="https://www.11ty.dev/">Eleventy</a>.
+          Design adapted from <a href="https://github.com/academicpages/academicpages.github.io">Academic Pages</a> and <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/">Minimal Mistakes</a>.<br>
+          Site last updated {{ buildDate | isoDate }}
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
