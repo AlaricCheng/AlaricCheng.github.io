@@ -2,7 +2,7 @@
   "name": "bin-cheng-homepage",
   "version": "1.0.0",
   "private": true,
-  "description": "Bin Cheng's single-page academic website",
+  "description": "Bin Cheng's academic website",
   "type": "module",
   "license": "MIT",
   "engines": {
