@@ -116,6 +116,17 @@ p { margin: 0 0 1.3em; }
 .page-content li > p { margin-bottom: 0; }
 .page-content li:last-child { margin-bottom: 0; }
 
+.news-scroll {
+  max-height: var(--news-height, none);
+  overflow-y: auto;
+  scrollbar-gutter: stable;
+  scrollbar-width: thin;
+  scrollbar-color: var(--footer-border) var(--background);
+  padding-right: .5rem;
+}
+.news-scroll > ul { margin-bottom: 0; }
+.news-scroll:focus-visible { outline: 2px solid var(--link); outline-offset: 4px; }
+
 .page-footer { margin-top: 3rem; background: var(--footer-background); border-top: 1px solid var(--footer-border); color: var(--muted); }
 .footer-inner { max-width: 1280px; margin: 0 auto; padding: 1rem; }
 .page-footer a { color: inherit; text-decoration: none; }
@@ -161,4 +172,5 @@ p { margin: 0 0 1.3em; }
   .site-shell { display: block; margin-top: 0; }
   .author-profile { position: static; max-height: none; margin-bottom: 2rem; }
   .js .author-links { display: block; position: static; border: 0; box-shadow: none; }
+  .news-scroll { max-height: none; overflow: visible; }
 }

@@ -1,3 +1,7 @@
+- [11/2026] New paper on quantum distance computation “[Certifying Quantum Code and Circuit Distances at Scale](https://arxiv.org/abs/2611.08247)” is now available on arXiv.
+
+- [11/2026] New paper on addressable transversal phase gates “[Substantially Improved Rate and Distance for Addressable Transversal Phase Gates](https://arxiv.org/abs/2611.04964)” is now available on arXiv.
+
 - [10/2026] New paper on quantum finance “[Pricing of graph-based quantum portfolios from first principles](https://arxiv.org/abs/2610.03279)” is now available on arXiv.
 
 - [09/2026] New paper on quantum decoding “[Exact Maximum Likelihood Decoding beyond Treewidth via Rank-Decomposition Dynamic Programming](https://arxiv.org/abs/2609.39556)” is now available on arXiv.

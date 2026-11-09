@@ -67,5 +67,23 @@
     const updateHeaderHeight = () => root.style.setProperty("--masthead-height", `${header.getBoundingClientRect().height}px`);
     new ResizeObserver(updateHeaderHeight).observe(header);
     updateHeaderHeight();
+
+    const newsScroll = document.querySelector(".news-scroll");
+    const newsList = newsScroll?.querySelector("ul");
+    if (newsList) {
+      const updateNewsHeight = () => {
+        if (newsList.children.length <= 5) {
+          newsScroll.style.removeProperty("--news-height");
+          newsScroll.removeAttribute("tabindex");
+          return;
+        }
+        // Keep five complete entries visible as text wraps at different widths.
+        const height = newsList.children[4].getBoundingClientRect().bottom - newsList.getBoundingClientRect().top;
+        newsScroll.style.setProperty("--news-height", `${height}px`);
+        newsScroll.tabIndex = 0;
+      };
+      new ResizeObserver(updateNewsHeight).observe(newsList);
+      updateNewsHeight();
+    }
   });
 })();

@@ -68,7 +68,9 @@ permalink: /index.html
         </section>
         <section class="content-section" id="news" aria-labelledby="news-heading">
           <h2 id="news-heading">News</h2>
-          {% renderFile "src/content/news.md" %}
+          <div class="news-scroll" role="region" aria-labelledby="news-heading">
+            {% renderFile "src/content/news.md" %}
+          </div>
         </section>
         <section class="content-section" id="publications" aria-labelledby="publications-heading">
           <h2 id="publications-heading">Selected Papers</h2>

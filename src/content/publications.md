@@ -1,5 +1,11 @@
 Complete publication list can be found in my [Google Scholar](https://scholar.google.com/citations?user=WcIQUTsAAAAJ&hl=en).
 
+1. **Bin Cheng**, Naixu Guo, Feng Pan.
+*Certifying Quantum Code and Circuit Distances at Scale*. [arXiv:2611.08247](https://arxiv.org/abs/2611.08247)
+
+1. Bujiao Wu, Tongyin Lin, **Bin Cheng**.
+*Substantially Improved Rate and Distance for Addressable Transversal Phase Gates*. [arXiv:2611.04964](https://arxiv.org/abs/2611.04964)
+
 1. **Bin Cheng**, Feng Pan.
 *Exact Maximum Likelihood Decoding beyond Treewidth via Rank-Decomposition Dynamic Programming*. [arXiv:2609.39556](https://arxiv.org/abs/2609.39556)
 
